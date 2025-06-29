@@ -8,7 +8,7 @@ body {
   display: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 .card {
@@ -20,7 +20,7 @@ body {
   max-width: 400px;
   width: 100%;
   animation: fadeIn 1.5s ease-in;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .photo {
