@@ -1,13 +1,11 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background-size: 100% 100% ;
-  background-position: top;
   overflow: hidden;
 }
 
 .App {
-  display: flex;
+  display: center;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -22,7 +20,7 @@ body {
   max-width: 400px;
   width: 100%;
   animation: fadeIn 1.5s ease-in;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .photo {
