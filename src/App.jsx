@@ -5,20 +5,7 @@ import husbandImage from "./JS.jpg";
 import bg1 from "./heart5.jpg";
 import bg2 from "./heart4.jpg";
 
-const backgroundImages = [bg1, bg2];
-
 function App() {
- const [bgIndex, setBgIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setBgIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
-    }, 20000); // Change every 2 seconds
-
-    return () => clearInterval(intervalId); // Clean up on unmount
-  }, []);
-
-
   return (
     <div className="App">
       <BirthdayCard
