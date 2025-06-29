@@ -20,20 +20,7 @@ function App() {
 
 
   return (
-    <div className="App"
-      style={{
-        backgroundImage: `url(${backgroundImages[bgIndex]})`,
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        minHeight: "100vh",
-        transition: "background-image 1s ease-in-out",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "2rem",
-      }}
-      >
+    <div className="App">
       <BirthdayCard
         name="My ❤️"
         message="Cheers🥂 to your first Birthday with me as your wife - hope we have many more beautiful birthdays together💑!Once again HBD husband.💞🎊"
