@@ -1,9 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: url("heart4.jpg") no-repeat center center fixed;
-  background-size: 90% 90% ;
-  background-position: top;
+  
   overflow: hidden;
 }
 
